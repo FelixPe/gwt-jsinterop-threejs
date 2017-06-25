@@ -1,7 +1,8 @@
 package de.pesse.gwt.jsinterop.threeJs.renderers;
 
-import jsinterop.annotations.JsPackage;
+
 import jsinterop.annotations.JsType;
+import com.google.gwt.dom.client.Element;
 import de.pesse.gwt.jsinterop.threeJs.ThreeJsStatics;
 import de.pesse.gwt.jsinterop.threeJs.cameras.Camera;
 import de.pesse.gwt.jsinterop.threeJs.scenes.Scene;
@@ -9,7 +10,7 @@ import de.pesse.gwt.jsinterop.threeJs.scenes.Scene;
 @JsType(isNative=true, namespace=ThreeJsStatics.PACKAGE_NAME)
 public class WebGLRenderer
 {
-	public Object domElement;
+	public Element domElement;
 	
 	public WebGLRenderer() {}
 	
